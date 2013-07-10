@@ -6,6 +6,8 @@ v 1.1.1 02/12/2012
 http://codecanyon.net/user/ufoufoufo
 
 Copyright (c) 2012
+
+Grant's change 2013-07-10
 */
 
 jQuery.fn.extend({
