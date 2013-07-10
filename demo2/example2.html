@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Untitled Document</title>
+        <link rel="stylesheet" href="css/jbclock.css" type="text/css" media="all" />
+        <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+        <script type="text/javascript" src="js/jbclock.js"></script>
+                <script type="text/javascript">
+            $(document).ready(function(){
+                JBCountDown({
+                    secondsColor : "#ffdc50",
+                    secondsGlow  : "#ffdc50",
+                    
+                    
+                    startDate   : "1357034400",
+                    endDate     : "1386496800",
+                    now         : "1369972975"
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+
+
+        <div class="wrapper" style="margin-top:150px;">
+            
+            <div class="clock">
+                <canvas id="canvas_seconds" width="518px" height="518px"></canvas>
+            </div>
+            
+            <div class="text">
+                <p>This Website is Under Construction</p>
+                <span>We will be online in</span>
+            </div><!--/text-->    
+
+            <div class="timer">
+                <p><span class="days">0</span> days <span class="hrs">0</span> hours <span class="mins">0</span> minutes and <span class="secs">0</span> seconds</p>
+            </div>    
+            
+
+
+
+        </div><!--/wrapper-->
+
+    </body>
+</html>

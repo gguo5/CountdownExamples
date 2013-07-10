@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>JB Clock</title>
+        <link rel="stylesheet" href="css/jbclock.css" type="text/css" media="all" />
+        <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+        <script type="text/javascript" src="js/jbclock.js"></script>
+                <script type="text/javascript">
+            $(document).ready(function(){
+                JBCountDown({
+                    secondsColor : "#fff",
+                    secondsGlow  : "none",
+                    
+                    startDate   : "1357044400",
+                    endDate     : "1382496800",
+                    now         : "1369973619"
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+
+        <div class="wrapper" style="margin-top:270px;">
+            <div class="left">
+                <h1>This website is under construction!</h1>
+                <h4>We will be live in:</h4>
+            </div>
+
+            <div class="clock">
+                <canvas id="canvas_seconds" width="267px" height="267px"> </canvas>
+                <p class="val">0</p>
+            </div>
+
+            <div class="right">
+                <h1>IN THE MEANTIME FOLLOW US ON <a href="#">TWITTER</a>?</h1>
+                <h4>DAYS FROM NOW!</h4>
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+/*------------------- FONT LICENSE */
+
+@font-face {
+    font-family: 'fontBold';
+    src: url('../fonts/fontBold.ttf');
+    src: url('../fonts/fontBold.woff') format('woff'),
+         url('../fonts/fontBold.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:100%;
+	height:100%;
+	font-family:'fontBold', sans-serif;
+	background:url(../img/bg.png);
+}
+
+.buyme{
+	position:absolute;
+	z-index:9999;
+	width:150px;
+	height:150px;
+	bottom:0;
+	right:0;
+	border:0;
+}
+
+.buyme img{
+	border:0;
+}
+
+#wrapper{
+	width:640px;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+.clear{
+	width:100%;
+	clear:both;
+}
+
+a{
+	outline:0;
+	border:0;
+}
+
+
+.styleWrap{
+	width:700px;
+	background:#fff;
+	border:1px solid #eaeaea;
+	padding:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	-moz-box-shadow:5px 5px 10px #baaf8b;
+	-webkit-box-shadow:5px 5px 10px #baaf8b;
+	box-shadow:5px 5px 10px #baaf8b;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+
+#box{
+	background: url(../img/bg.png);
+	-moz-box-shadow:5px 5px 10px #baaf8b;
+	-webkit-box-shadow:5px 5px 10px #baaf8b;
+	box-shadow:5px 5px 10px #baaf8b;
+	width:700px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:20px;
+}
+	
+select{
+	padding:10px;
+	border:1px solid #ccc;
+	color:#837c65;
+}
+
+.preview{
+	background: url(../img/bg2.png);
+	padding:5px;
+	color:#e6dcbb;
+	font-size:12px;
+	font-weight:bold;
+	font:'mainFont', sans-serif;
+	text-transform:uppercase;
+	float:right;
+	border:0px;
+	cursor:pointer;
+}
+	
+

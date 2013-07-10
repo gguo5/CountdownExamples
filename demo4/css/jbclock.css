@@ -1,0 +1,81 @@
+body {
+	margin:0px;
+	padding:0px;
+	background-image:url(../img/bg.png);
+}
+
+.wrapper {
+	width:960px;
+	margin:0 auto;
+}
+
+.left {
+	float:left;
+	width:320px;
+	height:267px;
+	
+}
+h1 {
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size:12px;
+    text-align: left;
+	text-transform:uppercase;
+	line-height:15px;
+	font-weight: normal;
+	margin-top:110px;
+	float:left;
+	width:340px;
+}
+
+h1 a {
+	color:#FFF;
+	text-decoration:underline;
+}
+
+h1 a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+h4 {
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size:30px;
+    text-align: left;
+    text-transform:uppercase;
+	font-weight: normal;
+	margin-top:0px;
+	float:left;
+	width:340px;
+}
+
+.clock {
+	width:267px;
+	height:267px;
+	background-image:url(../img/clock_bg.png);
+	float:left;
+        position: relative;
+}
+
+.clock .val {
+	line-height:110px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:80px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	width:267px;
+        position: absolute;
+        top:0;
+        left:0;
+}
+
+.right {
+	float:right;
+	width:350px;
+	height:267px;
+	
+}
